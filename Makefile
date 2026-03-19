@@ -1,6 +1,6 @@
 CC      = gcc
 CFLAGS  = -Wall -O2
-LDFLAGS = -lncursesw -lcrypt
+LDFLAGS = -lncursesw -ltinfow -lcrypt
 TARGET  = based-login
 SRCS    = main.c ui_core.c widgets.c auth.c system_utils.c
 OBJS    = $(SRCS:.c=.o)
